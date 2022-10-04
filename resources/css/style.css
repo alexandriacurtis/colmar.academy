@@ -187,3 +187,34 @@ header {
 }
 
 
+/* Courses Section */
+
+.courses-section {
+    background-color: lightgray;
+    padding: 32px 56px;
+}
+
+.courses-section h2 {
+    text-align: center;
+}
+
+.course-tiles {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.course-box{
+    background-color: white;
+    width: 30%;
+    margin: 16px;
+}
+
+.course-box img {
+    width: 100%;
+}
+
+.course-box p, h3 {
+    padding: 0 16px;
+}
